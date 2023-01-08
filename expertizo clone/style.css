@@ -1,0 +1,390 @@
+.home{
+    /* height: 625px; */
+    height: auto;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("https://www.expertizo.pk/img/background1.jpg");
+    color: white;
+    padding-bottom: 8%;
+    padding-top: 10px;
+}
+#back-to-top {
+    
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #6195FF;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.nav-custom{
+    display: flex;
+}
+.navbar-right{
+    justify-content: flex-end;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.header img{
+    width: 80px;
+}
+.home-text{
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+    margin-top: 2%;
+    padding: 5%;
+}   
+.home-text>p{
+    font-family: 'Varela Round', sans-serif;
+font-size: 16px;
+line-height: 1.8;
+}
+.home-text>h1{
+line-height: 1.1;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 54px;
+text-transform: uppercase;
+
+}
+ .portfolio{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+ }
+ .portfolio h1{
+    text-align: center;
+    padding-top: 10%;
+    line-height: 1.1;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+color: #10161A;
+font-size: 36px;
+text-transform: capitalize;
+}
+.services{
+    width: 100%;
+    height: auto;
+    background-color:white;
+    padding-bottom: 10%;
+ }
+.services h1{
+    text-align: center;
+    padding-top: 5%;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #10161A;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.services .row{
+    justify-content: space-evenly;
+}
+.s-card1{
+    border: 1px solid rgb(240, 240, 240);
+    display: flex;
+    padding: 9px;
+    padding-top: 13%;
+    /* height: 250px; */
+    height: auto;
+    margin-bottom: 2%;
+    /* flex-wrap: wrap; */
+}
+.s-card1 img{
+    width: 60px;
+    margin-top: -15%;
+}
+
+/* .s-card1>.c10>h5:hover{
+   
+    color: white;
+} */
+
+
+.s-card1 h3{
+    line-height: 1.1;
+font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
+font-size: 20px;
+transition: 0.2s color;
+} 
+.s-card1 p{
+    font-family: 'Varela Round', sans-serif;
+font-size: 16px;
+line-height: 1.6;
+color: #868F9B;
+}
+/* hover */
+.s-card1:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.chooseusmain{
+    height: auto;
+    /* background-color: rgb(196, 17, 17); */
+}
+
+.chooseus{
+    height: auto;
+    /* background-color: pink; */
+    /* display: flex; */
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+.chooseus h1{
+
+line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #10161A;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.chooseus h4{
+
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #10161A;
+    font-size: 20px;
+}
+
+.career{
+    height: auto;
+    /* background-color: rgb(17, 196, 47); */
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.career h1{
+    text-align: center;
+    /* padding-bottom: 3%; */
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #10161A;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.cc1 {
+    padding-top: 9%;
+}
+.cc1 h6{
+    text-align: center;
+    padding-bottom: 7%;
+    color: rgb(179, 178, 178)
+}
+.cc1 .circlediv{
+    height: 150px;
+    width: 150px;
+    margin: 10px auto;
+    border: 2px solid blue;
+    border-radius: 100%; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+
+/******************** Slider******************************/
+.testenomial-cont
+{
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url('https://www.expertizo.pk/img/background3.jpg');
+   padding-bottom: 5%;
+   margin-top: 2%;
+
+}
+.testomonial_container{
+    overflow: hidden;
+    position: relative;
+    height: 550px;
+}
+
+.testomonials{
+    width: 76%;
+    margin-top: 15%;
+  
+}
+.testomonial{
+
+    width: 30%;
+    padding-top: 5%
+}
+
+.avatar{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    
+}
+.testomonial_info
+{
+   
+    margin: 4% 0% 0% 4%;
+}
+.testomonial_info>h5
+{
+   color: white;
+}
+.testomonial_info>small
+{
+   color: rgb(39, 107, 252);
+}
+.testomonial_body{
+    margin-top: 5%;
+    color: white;
+}
+.test{
+  display: flex;
+  
+}
+
+
+.t1{
+    display: flex;
+}
+ .t1text{
+    padding-top:10px ;
+}  
+
+
+
+
+
+
+
+
+
+
+/* shake image */
+
+#shake:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.card-body p{
+    text-align: center;
+    color:rgb(153, 152, 152) ;
+}
+.recommendation{
+    /* height: 500px; */
+    height: auto;
+}
+.recommendationMain{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("https://www.expertizo.pk/img/background3.jpg");
+    
+}
+
+/* .slider2{
+    display: flex;
+
+} */
+
+.founder{
+    height: auto;
+    /* background-color: chartreuse; */
+    padding-bottom: 7%;
+}
+.founder h1{
+    text-align: center;
+    padding-top: 8%;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #10161A;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.fcard{
+    justify-content: space-evenly;
+}
+
+.fcardtext {
+    text-align: center;
+} 
+
+.contact{
+    height: auto;
+    /* background-color: aquamarine; */
+    padding-bottom: 7%;
+}
+.contact h1{
+    text-align: center;
+    padding-top: 8%;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #10161A;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.contactCard{
+    justify-content: space-evenly;
+}
+.contactCard1{
+    justify-content: center;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1%;
+    color: rgb(190, 188, 188);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
